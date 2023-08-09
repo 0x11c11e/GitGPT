@@ -1,65 +1,45 @@
-# gitgpt README
+# GitGPT 🚀
 
-This is the README for your extension "gitgpt". After writing up a brief description, we recommend including the following sections.
+This Visual Studio Code extension leverages the power of OpenAI's GPT-3 model to automatically generate meaningful commit messages based on your code changes. It's designed to streamline the commit process, making it easier for developers to accurately describe their changes and maintain a clean and understandable commit history. 📚
 
-## Features
+## Features 🛠️
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Automatically generates commit messages based on your code changes.
+- Streamlines the commit process.
+- Helps maintain a clean and understandable commit history.
 
-For example if there is an image subfolder under your extension project workspace:
+## How to Use 📖
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Install the extension in Visual Studio Code.
+2. Open your project in Visual Studio Code.
+3. Stage your changes in Git.
+4. Click on the "Generate Commit Message" icon in the status bar.
+5. If prompted, enter your OpenAI key.
+6. The extension will generate a commit message based on your changes and open it in a new tab.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Requirements 📋
 
-## Requirements
+- Visual Studio Code
+- Git
+- OpenAI key
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Known Issues ❗
 
-## Extension Settings
+- The OpenAI API has a maximum input length of 4096 characters. If your diff is larger than this, it will be truncated.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## License 📄
 
-For example:
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
-This extension contributes the following settings:
+## Acknowledgments 🙏
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+- This extension uses the OpenAI API to generate commit messages.
+- Thanks to the Visual Studio Code team for creating a great editor!
 
-## Known Issues
+## Contributing 🤝
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](../../issues). 
 
-## Release Notes
+## Show your support ⭐
 
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Give a ⭐️ if this project helped you!
