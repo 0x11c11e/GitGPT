@@ -29,7 +29,7 @@ This Visual Studio Code extension leverages the power of OpenAI's GPT-3 model to
 
 ## License 📄
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](./LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](https://github.com/0x11c11e/GitGPT/blob/main/LICENSE) file for details.
 
 ## Acknowledgments 🙏
 
@@ -38,7 +38,7 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ## Contributing 🤝
 
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](../../issues).
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/0x11c11e/GitGPT/issues).
 
 ## Show your support ⭐
 

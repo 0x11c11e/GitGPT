@@ -3,6 +3,22 @@
   "displayName": "GitGPT",
   "description": "\"GitGPT is a powerful and intuitive VS Code extension designed to streamline your code review process. Leveraging the advanced capabilities of OpenAI's GPT model, GitGPT automatically generates insightful and context-aware comments for your commits based on the diff. With a simple click on the icon next to the comment area, GitGPT provides you with a relevant comment, saving you time and enhancing your productivity. Whether you're a solo developer or part of a collaborative team, GitGPT is an essential tool to make your coding and review process more efficient and effective.\"",
   "version": "0.0.1",
+  "publisher": "Iman Reihanian",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0x11c11e/GitGPT.git"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "message",
+    "GPT-3",
+    "OpenAI",
+    "automation",
+    "code",
+    "development",
+    "auto"
+  ],
   "engines": {
     "vscode": "^1.81.0"
   },
