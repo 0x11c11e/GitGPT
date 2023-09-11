@@ -2,7 +2,7 @@
   "name": "gitgpt",
   "displayName": "GitGPT",
   "description": "GitGPT is a powerful and intuitive VS Code extension designed to streamline your code review process. Leveraging the advanced capabilities of OpenAI's GPT model, GitGPT automatically generates insightful and context-aware comments for your commits based on the diff.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "ImanReihanian",
   "repository": {
     "type": "git",
